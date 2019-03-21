@@ -32,19 +32,6 @@ a:hover {
   margin-left: 15px;
 }
 
-/*#side_menu > a.home {
-  padding-right: 72px;
-}
-#side_menu > a.Research {
-  padding-right: 72px;
-}
-#side_menu > a.Publication {
-  padding-right: 72px;
-}
-#side_menu > a.Labmem {
-  padding-right: 72px;
-}*/
-
 h1 {
   font-size : 45px;
   text-align: center;
@@ -69,7 +56,7 @@ h1 {
 
 body{
   background-color: #FEF9E7;
-  margin: 0;
+  /*margin: 0;*/
 }
 #grid{
   display: grid;
@@ -87,6 +74,13 @@ body{
 /*.item{
   border: 1px black solid;
 }*/
+
+table, td, tr{
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 @media(max-width:600px){
   #grid{
     display: inline-block;
