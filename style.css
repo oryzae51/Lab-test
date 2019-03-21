@@ -56,7 +56,7 @@ h1 {
 
 body{
   background-color: #FEF9E7;
-  /*margin: 0;*/
+  margin: 0;
 }
 #grid{
   display: grid;
