@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <title>Lab test</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="jsprac.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<!--오른쪽 위 홈버튼-->
+<div align = "right"id="home"><a href="index.html" title="index.html">home</a></div>
+
+<!--body는 bkgrund, header, grid(side_menu, articel), footer로 되어있음-->
+<body>
+  <div id="bkgrund">
+    <div id="header">
+      <h1><a href="index.html">Laboratoty of Eukaryotic Trasnscription</a></h1>
+    </div>
+    <!--<input type="button" value="night" onclick="nightDayHandler(this)">-->
+    <div id="grid">
+      <div id="side_menu">
+        <a href="index.html" >Home</br></a>
+        <a href="Research.html">Research</a></br></li>
+        <a href="Publication.html" >Publication</br></a>
+        <a href="Lab_member.html" class="act">Lab member</br></a>
+      </div>
+      <div id="article">
+        <!--row * col = n * 2
+        한 행에 한명씩 넣음. 1열은 사진, 2열은 인물정보-->
+        <table>
+          <!--사람1-->
+          <tr>
+            <td>사진</td>
+            <td>
+              <p>과정, 이름 <br>등등</p>
+            </td>
+          </tr>
+          <!--사람2-->
+          <tr>
+            <td>사진</td>
+            <td>
+              <p>과정, 이름 <br>등등</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--<input type="button" value="night" onclick="nightDayHandler(this)">-->
+    <div id="footer">
+
+    </div>
+  </div>
+</body>
+</html>

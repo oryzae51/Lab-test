@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+html,body,div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+blockquote,th,td,p {
+	/*font-family: "Source Sans Pro","NanumBarunGothic","Sans-Serif";*/
+  font-family: "Arial", "Helvetica", "Sans-Serif";
+	font-size: 12pt;
+}
+
+table {
+	border: solid 1px;
+	border-collapse: collapse;
+}
+td {
+	border: solid 1px;
+	padding: 10px;
+	border-color: #ccc;
+}
+div {
+	overflow: hidden;
+}
+
+body {
+	background: #E0F2F1;
+	background-image:none;
+	background-attachment:fixed;
+	background-repeat:repeat-y;
+	background-size: cover;
+}
+
+a.circular {
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 1000px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+li {
+	margin: 10px 0;
+}
+ol > li {
+	padding-left: 2em;
+}
+img {
+	max-width: 100%;
+}
+
+#outermost {
+	top: 0;
+	width: 80%;
+	min-width: 450px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 0;
+        margin-left: none;
+        margin-top: 50px;
+	margin-bottom: 50px;
+	color: #004D40;
+}
+#head_title {
+	font-size: 35pt;
+        font-weight: bold;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+#head_title:link,#head_title:visited {
+	color: #004D40;
+}
+
+#head_desc {
+	font-size: 12pt;
+	margin-top : 15px;
+}
+
+#main_menu {
+	margin: 0;
+}
+
+#main_menu > a {
+	display: inline-block;
+	margin: none;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: none;
+	background: #B2DFDB;
+}
+
+#main_menu > a.menu_active {
+	background: #fff;
+}
+
+#main_menu > a:link, #main_menu > a:visited {
+	color: #004D40;
+}
+
+#container {
+	background: #fff;
+	padding: 20px;
+	border-radius: none;
+}
+
+p.page_title {
+	font-size: 150%;
+        font-weight: bold;
+        color: #00796B;
+}
+
+img.members {
+	width: 250px;
+}
+
+span.alumni_email {
+        visibility:hidden;
+	color: rgb(124,124,124);
+	margin-left: 30px;
+}
+
+#footer {
+	background: #B2DFDB;
+        color: #004D40;
+	padding: 20px;
+	border-radius: none;
+}
